@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
 @ImportResource(value = {"classpath:dubbo-consumer.xml"})
+@EntityScan("com.ws.bean")
 public class Pro3ConsumerApplication {
 
     public static void main(String[] args) {
