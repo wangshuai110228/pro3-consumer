@@ -29,8 +29,6 @@ public class AdvController {
         return list;
     }
 
-
-
     //批量删除
     @RequestMapping("deleteAdvAll")
     @ResponseBody

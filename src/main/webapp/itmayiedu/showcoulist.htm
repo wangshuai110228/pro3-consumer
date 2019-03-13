@@ -404,7 +404,7 @@
     <div class="r-fixed-wrap">
         <ul class="r-fixed-ul">
             <li id="goTopBtn" class="undis"><a href="javascript: void(0)"
-            title="返回顶部" class="bg-orange"> <em class="r-f-icon-3">&nbsp;</em><span>返回顶部</span>
+                                               title="返回顶部" class="bg-orange"> <em class="r-f-icon-3">&nbsp;</em><span>返回顶部</span>
             </a></li>
         </ul>
     </div>
@@ -446,9 +446,9 @@
                 var bp = document.createElement('script');
                 var curProtocol = window.location.protocol.split(':')[0];
                 if (curProtocol === 'https') {
-                    bp.src = 'push.js'/*tpa=https://zz.bdstatic.com/linksubmit/push.js*/;
+                    bp.src = 'push.js';
                 } else {
-                    bp.src = 'push-1.js'/*tpa=http://push.zhanzhang.baidu.com/push.js*/;
+                    bp.src = 'push-1.js';
                 }
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(bp, s);
@@ -483,6 +483,7 @@
                 app_id: "3b2adbb4"
             });
             daovoice('update');
+
         </script>
     </section>
     <!-- 公共底引入 -->
@@ -504,16 +505,13 @@
                 for(var i in data){
 
                     str += "<li>" +
-                           "<a onclick='submitForm(1,"+data[i].id+")' title='"+data[i].kname+"' href='javascript:void(0)'>"+data[i].kname+"</a>" +
-                           "</li>"
+                        "<a onclick='submitForm(1,"+data[i].id+")' title='"+data[i].kname+"' href='javascript:void(0)'>"+data[i].kname+"</a>" +
+                        "</li>"
                 }
                 $("#loag").html(str);
 
-            },
-            error:function(){
             }
         })
     }
-
 </script>
 </html>
