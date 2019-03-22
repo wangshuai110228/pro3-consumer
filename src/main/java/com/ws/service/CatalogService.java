@@ -9,6 +9,7 @@ import java.util.List;
 public interface CatalogService {
     HashMap<String, Object> queryCatalog(int page, int rows, Catalog catalog);
 
+
     List<Kecheng> queryRole();
 
     void addCatalog(Catalog catalog);

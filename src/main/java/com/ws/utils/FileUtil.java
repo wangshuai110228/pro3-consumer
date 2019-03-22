@@ -15,6 +15,7 @@ import java.util.UUID;
 
 public class FileUtil {
 
+
 	private static final String url = "upload";//默认上传图片目录
 
 	/**

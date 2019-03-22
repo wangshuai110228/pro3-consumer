@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Vip implements Serializable {
 
+
     private static final long serialVersionUID = 1298465431748750411L;
     private Integer id;
     private  String vname;

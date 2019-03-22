@@ -10,6 +10,7 @@ import java.util.Date;
 @Document(collection="excption")
 public class ExcptionHandler implements Serializable {
 
+
     private static final long serialVersionUID = 3535503453880343866L;
     private String id;//主键ID
 

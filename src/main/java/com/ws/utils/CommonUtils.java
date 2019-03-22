@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public class CommonUtils {
 
+
 	//获取客户端ip  
     public static String getIp(HttpServletRequest request) {
         String ip = request.getHeader("X-Forwarded-For");  

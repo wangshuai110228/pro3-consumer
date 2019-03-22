@@ -8,6 +8,7 @@ import java.util.List;
 public interface TaskService {
     List<Task> queryTask(Integer uid);
 
+
     List<UserBean> queryTaskRole();
 
     void addTask(Task task);

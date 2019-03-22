@@ -17,6 +17,7 @@ public class TaskController {
     @Autowired
     private TaskService taskService;
 
+
     //查询任务
     @RequestMapping("queryTask")
     @ResponseBody

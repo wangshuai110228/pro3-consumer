@@ -21,7 +21,8 @@ import java.util.List;
  * @version </pre>    
  */
 public class PageModel { 
-		
+
+
 	private Integer pageNow;  //当前页
 	private Integer pageCount; //每页条数
 	private Integer pageSum;  //总条数

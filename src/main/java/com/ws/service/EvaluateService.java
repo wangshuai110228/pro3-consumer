@@ -8,6 +8,7 @@ import java.util.List;
 public interface EvaluateService {
     HashMap<String, Object> queryPinLun(int page, int rows, Evaluate evaluate);
 
+
     void deleteAll(String id);
 
     Evaluate queryEvaluateById(Integer id);

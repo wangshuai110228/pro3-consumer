@@ -9,6 +9,7 @@ import java.util.Random;
 
 public class CheckImgUtil {
 
+
 	public static void buildCheckImg(HttpServletRequest request, HttpServletResponse response) {
 		try {
 			checkImg(request,response);

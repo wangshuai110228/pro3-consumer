@@ -13,6 +13,7 @@ import java.util.List;
 @Controller
 public class AdministraController {
 
+
     @Autowired
     private AdministraService administraService;
 

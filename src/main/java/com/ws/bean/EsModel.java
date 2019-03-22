@@ -18,6 +18,7 @@ public class EsModel{
     private  String kdesc;
     private  String kurl;
 
+
     public String getId() {
         return id;
     }

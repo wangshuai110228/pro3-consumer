@@ -3,6 +3,7 @@ package com.ws.bean;
 import java.io.Serializable;
 
 public class Xinwen implements Serializable {
+
     private static final long serialVersionUID = -2242341427072155810L;
     private  Integer id;
     private  String content;

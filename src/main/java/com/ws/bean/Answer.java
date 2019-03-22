@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Answer implements Serializable {
 
+
     private static final long serialVersionUID = 6229941346170802998L;
     private  Integer id;
     private  String contont;

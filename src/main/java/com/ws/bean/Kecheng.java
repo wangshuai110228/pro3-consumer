@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Kecheng implements Serializable {
 
+
     private static final long serialVersionUID = -2974925595632283124L;
     private  Integer id;
     private  String kname;

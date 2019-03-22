@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class pageController {
 
 
+
     @RequestMapping("test")
     public  String test (){
         return "ossdome";

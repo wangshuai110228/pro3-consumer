@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Administration implements Serializable  {
 
+
     private static final long serialVersionUID = -3832375323961109839L;
     private  Integer id;
     private  String sdianji;

@@ -8,6 +8,7 @@ import java.io.Serializable;
 public class Ketype implements Serializable {
 
 
+
     private static final long serialVersionUID = -5931103615563589711L;
     private  Integer id;
     private  String kename;

@@ -14,6 +14,7 @@ public class VipController {
     @Autowired
     private VipService vipService;
 
+
     @RequestMapping("toVip")
     public  String toVip(){
         return "vip";

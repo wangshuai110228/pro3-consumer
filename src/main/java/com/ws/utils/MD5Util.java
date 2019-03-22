@@ -22,7 +22,8 @@ import java.security.MessageDigest;
  * @version </pre>    
  */
 public class MD5Util {
-	
+
+
 	 /** 
      * 对字符串md5加密(小写+字母) 
      * 

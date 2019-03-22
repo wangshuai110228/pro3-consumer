@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class WebUser implements Serializable {
 
+
     private static final long serialVersionUID = -6357565301670515304L;
     private Integer id;
     private String name;

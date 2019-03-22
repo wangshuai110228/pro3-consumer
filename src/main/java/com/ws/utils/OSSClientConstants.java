@@ -2,6 +2,7 @@ package com.ws.utils;
 
 public class OSSClientConstants {
 
+
     //阿里云API的外网域名
     public static final String ENDPOINT = "oss-cn-beijing.aliyuncs.com";//"oss-cn-shanghai.aliyuncs.com";
     //阿里云API的密钥Access Key ID

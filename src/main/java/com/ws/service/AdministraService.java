@@ -10,5 +10,6 @@ public interface AdministraService {
 
     List<Administration> queryAdmini();
 
+
     void addAdministration(Administration administration);
 }

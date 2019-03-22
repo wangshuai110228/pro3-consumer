@@ -9,6 +9,7 @@ import java.util.List;
 public interface ProblemService {
 
 
+
     HashMap<String, Object> queryProblem2(int page, int rows, ProblemBean problemBean);
 
     void deleteAll(String id);

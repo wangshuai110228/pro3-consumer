@@ -19,6 +19,7 @@ public class XinwenController {
     @Autowired
     private XinwenService xinwenService;
 
+
     // 查询
     @RequestMapping("queryXinwen")
     @ResponseBody

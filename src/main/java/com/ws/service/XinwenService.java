@@ -7,6 +7,7 @@ import java.util.HashMap;
 public interface XinwenService {
     HashMap<String,Object> queryAnswer(int page, int rows, Xinwen xinwen);
 
+
     void updateAnswer(Xinwen xinwen);
 
     void addAnswer(Xinwen xinwen);

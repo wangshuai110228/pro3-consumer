@@ -9,6 +9,7 @@ import java.util.List;
 public interface KechengService {
     HashMap<String, Object> querykechen(int page, int rows, Kecheng kecheng);
 
+
     void deleteAll(String id);
 
     void addKecheng(Kecheng kecheng);

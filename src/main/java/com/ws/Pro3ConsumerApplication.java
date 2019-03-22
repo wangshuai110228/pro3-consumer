@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ImportResource;
 @EntityScan("com.ws.bean")
 public class Pro3ConsumerApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(Pro3ConsumerApplication.class, args);
     }

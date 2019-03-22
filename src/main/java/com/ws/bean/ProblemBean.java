@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class ProblemBean implements Serializable {
 
+
     private static final long serialVersionUID = 6675126324071626514L;
     private Integer id;
     private String pname;

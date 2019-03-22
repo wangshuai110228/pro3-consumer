@@ -10,6 +10,7 @@ import java.util.Date;
 @Document(collection="log")
 public class LogBean  implements Serializable {
 
+
 	private static final long serialVersionUID = 6359894963738932384L;
 	private String id;
 	private Integer userId;

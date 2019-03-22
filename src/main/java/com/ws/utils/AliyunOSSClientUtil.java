@@ -17,6 +17,7 @@ import java.io.InputStream;
  */
 public class AliyunOSSClientUtil {
 
+
     //log日志
     private static Logger logger = Logger.getLogger(AliyunOSSClientUtil.class);
     //阿里云API的内或外网域名

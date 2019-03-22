@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class ResultData<T> implements Serializable {
 
+
     private static final long serialVersionUID = 2721636316536981165L;
     private T data;
 

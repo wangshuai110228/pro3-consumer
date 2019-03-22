@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Evaluate implements Serializable {
 
+
     private static final long serialVersionUID = 1947356796781463195L;
     private  Integer id;
     private  String puser;

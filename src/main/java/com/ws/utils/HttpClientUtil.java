@@ -31,7 +31,8 @@ import java.util.Set;
  */
 
 public class HttpClientUtil {
-	
+
+
 	static CloseableHttpClient client = null;
 	static {
 		

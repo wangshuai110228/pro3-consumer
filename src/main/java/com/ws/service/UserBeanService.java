@@ -11,6 +11,7 @@ import java.util.List;
 public interface UserBeanService {
     HashMap<String,Object> queryUserBean(int page, int rows, UserBean userBean);
 
+
     void updatPwd(UserBean userBean);
 
     List<String> queryPowerMenuByUserid(Integer id);

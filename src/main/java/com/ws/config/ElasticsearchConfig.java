@@ -16,6 +16,7 @@ import java.net.InetAddress;
 @Configuration
 public class ElasticsearchConfig {
 
+
     private static final Logger LOGGER = LoggerFactory.getLogger(ElasticsearchConfig.class);
 
     /**

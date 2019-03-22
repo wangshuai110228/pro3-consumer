@@ -22,6 +22,7 @@ import java.util.List;
  * @version </pre>    
  */
 public class Tree implements Serializable {
+
 	private static final long serialVersionUID = 8395790841582308064L;
 	private Integer id;
 	private String text;

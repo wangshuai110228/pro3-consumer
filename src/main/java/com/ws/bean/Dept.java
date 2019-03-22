@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Dept implements Serializable {
 
+
     private static final long serialVersionUID = -5107180568702296027L;
     private Integer id;
     private String dname;
