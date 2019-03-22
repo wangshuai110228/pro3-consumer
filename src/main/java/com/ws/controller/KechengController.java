@@ -113,8 +113,6 @@ public class KechengController {
         return list;
     }
 
-
-
     //查询用户表
     @RequestMapping("querykechen2")
     @ResponseBody
@@ -123,7 +121,6 @@ public class KechengController {
 
         return list;
     }
-
 
 
     //查询审核后的
