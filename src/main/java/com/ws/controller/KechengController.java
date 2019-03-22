@@ -34,6 +34,8 @@ public class KechengController {
      */
     private String indexName = "test_index";
 
+
+
     /**
      * 类型
      */
