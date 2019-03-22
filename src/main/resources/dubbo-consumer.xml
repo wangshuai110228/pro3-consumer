@@ -28,6 +28,4 @@
     <dubbo:reference id="xinwenService" interface="com.ws.service.XinwenService"/>
     <dubbo:reference id="treeService" interface="com.ws.service.TreeService"/>
 
-
-
 </beans>
