@@ -27,6 +27,6 @@
     <dubbo:reference id="webUserService" interface="com.ws.service.WebUserService"/>
     <dubbo:reference id="xinwenService" interface="com.ws.service.XinwenService"/>
     <dubbo:reference id="treeService" interface="com.ws.service.TreeService"/>
-
+    <dubbo:reference id="sectionService" interface="com.ws.service.SectionService"/>
 
 </beans>
