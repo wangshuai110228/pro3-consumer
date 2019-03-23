@@ -50,7 +50,7 @@ public class KechengController {
     @RequestMapping("/insertKecheng")
     public String insertModel() {
 
-        List<Kecheng> kecheng=  kechengService.querykechen4();
+      List<Kecheng> kecheng=  kechengService.querykechen4();
 
         for(int i = 0 ; i < kecheng.size() ; i++) {
 
@@ -121,7 +121,6 @@ public class KechengController {
 
         return list;
     }
-
 
     //查询审核后的
     @RequestMapping("querykecheneeee")
@@ -194,12 +193,11 @@ public class KechengController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        if(path.contains("null")) {
+        if(path.contains("null")){
             return null;
         }else {
             System.out.println(path);
             return path;
-
         }
     }
 
