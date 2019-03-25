@@ -20,7 +20,7 @@ import com.alipay.api.request.AlipayTradePagePayRequest;
 @Controller
 public class AlipayController {
 
-    // 获取配置文件的信息
+    // 123123123获取配置文件的信息
     String app_id = AlipayConfig.app_id;
     String private_key = AlipayConfig.private_key;
     String notify_url = AlipayConfig.notify_url;
